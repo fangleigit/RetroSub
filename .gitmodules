@@ -1,0 +1,6 @@
+[submodule "MolecularTransformer"]
+	path = MolecularTransformer
+	url = https://github.com/pschwllr/MolecularTransformer
+[submodule "RetrievalModel"]
+	path = RetrievalModel
+	url = https://github.com/jcyk/copyisallyouneed
