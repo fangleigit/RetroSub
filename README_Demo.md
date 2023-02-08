@@ -31,6 +31,6 @@ Please follow the [setup](README.md#setup) and unzip our [shared file](https://b
     bash scripts/step0_fix_demo.sh 
     
 
-### step 2-5: run [demo.ipynb](demo.ipynb), and try your own cases.
+### step 2-2: run [demo.ipynb](demo.ipynb), and try your own cases.
     conda activate retrosub && jupyter notebook
     # NOTE: Please change the batch size in `demo_data/subseq2seq.sh` with jupyter if necessary.
