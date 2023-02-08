@@ -13,8 +13,6 @@ We do not support A100 as we use [MolecularTransformer](https://github.com/pschw
 
     # gpu
     docker run --gpus 1  -p 8888:8888 leifa/retrosub:1
-    # NOTE: Please change the batch size in `demo_data/subseq2seq.sh` with jupyter if necessary.
-
 
     # kill the container
     docker ps # this will show CONTAINER_ID in the first column
@@ -33,4 +31,3 @@ Please follow the [setup](README.md#setup) and unzip our [shared file](https://b
 
 ### step 2-2: run [demo.ipynb](demo.ipynb), and try your own cases.
     conda activate retrosub && jupyter notebook
-    # NOTE: Please change the batch size in `demo_data/subseq2seq.sh` with jupyter if necessary.
