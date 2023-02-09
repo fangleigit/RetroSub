@@ -14,7 +14,6 @@ def load_valid_reactions(data_dir):
     """
     invalid reactions are filtered out during preprocessing
     """
-    print('load vanilla AT predictions')
     src_list = []
     tgt_list = []
     with open(join(data_dir, f'src-test.txt')) as src_f, open(join(data_dir, f'tgt-test.txt')) as tgt_f:
