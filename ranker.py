@@ -23,7 +23,7 @@ def parse_config():
 def calc_ranking_scores(predicted_results, model_path):
     id_list, model_input = get_ranking_score_features(predicted_results)
     model = RankingModel()
-    model.load_state_dict(torch.load(model_path))
+    model.load_state_dict(torch.load(model_path, map_location='cpu'))
     model.eval()
 
     test_loader = DataLoader(RankingTestDataset(
