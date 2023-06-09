@@ -22,7 +22,7 @@ We do not support A100 as we use [MolecularTransformer](https://github.com/pschw
 ## Option 2: setup on your own machine (Windows is not supported)
 Note: the following setup was tested on Ubuntu [CPU_only (default), P100, V100]. 
 
-Please follow the [setup](README.md#setup) and unzip our [shared file](https://bdmstorage.blob.core.windows.net/shared/release_data.tar.gz) in the root folder.
+Please follow the [setup](README.md#setup) and unzip our [shared file](https://figshare.com/ndownloader/files/41144306) in the root folder.
 
 
 ### step 2-1: change code of submodule (reaction retrieval) to run on CPU in the code folder.
