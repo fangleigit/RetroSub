@@ -49,7 +49,7 @@ Our work consists of the following modules:
 
     
 ## Retrosynthesis on USPTO_full
-We provide our [processed data, trained models, and predictions on the test data](https://bdmstorage.blob.core.windows.net/shared/release_data.tar.gz) as references. Reproducing the paper results with this would be quite easy (the following steps 0-6 can be skipped).
+We provide our [processed data, trained models, and predictions on the test data](https://figshare.com/ndownloader/files/41144306) as references. Reproducing the paper results with this would be quite easy (the following steps 0-6 can be skipped).
     
 ###
     # in the root folder of this repo
